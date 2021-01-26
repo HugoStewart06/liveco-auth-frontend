@@ -6,3 +6,15 @@ code {
   background: #eee;
   color: #d04;
 }
+
+label {
+  display: block;
+}
+
+.Register-error {
+  border: 2px solid #d04;
+}
+
+nav a {
+  margin: 0 0.5em;
+}
