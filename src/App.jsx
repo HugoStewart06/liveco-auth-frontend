@@ -3,6 +3,7 @@ import { Route, Switch, Link } from 'react-router-dom';
 import axios from 'axios';
 import Register from './components/Register';
 import Login from './components/Login';
+import Profile from './components/Profile';
 import './App.css';
 
 function App() {
@@ -22,8 +23,9 @@ function App() {
 
       <Switch>
         <Route path="/login" component={Login} />
-        <Route exact path="/register" component={Register} />
-        <Route exact to="/" render={() => <h1>Welcome</h1>} />
+        <Route path="/register" component={Register} />
+        <Route path="/profile" component={Profile} />
+        <Route exact path="/" render={() => <h1>Welcome</h1>} />
       </Switch>
     </div>
   );

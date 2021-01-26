@@ -11,7 +11,8 @@ label {
   display: block;
 }
 
-.Register-error {
+.Register-error,
+.Login-error {
   border: 2px solid #d04;
 }
 
